@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {data_pov} from './TABLE_28.js'
 
 function App() {
+  console.log(data_pov[1])
   return (
     <div className="App">
       <header className="App-header">
